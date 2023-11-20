@@ -1,0 +1,492 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .element2 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: relative;
+  }
+
+  .element2 .div2 {
+    background-color: #ffffff;
+    width: 100vw;
+    height: auto;
+    position: relative;
+  }
+
+    .element2 .overlap-group-2-2 {
+    position: absolute;
+    width: 500px;
+    height: 1080px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d9;
+  }
+
+  .element2 .overlap-group2 {
+    position: absolute;
+    width: 319px;
+    height: 77px;
+    top: 923px;
+    left: 865px;
+    background-color: #d9d9d9cc;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+
+  .element2 .text-wrapper2 {
+    position: absolute;
+    top: 23px;
+    left: 90px;
+    font-family: "Inter-Regular", Helvetica;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .element2 .overlap2 {
+    position: absolute;
+    width: 319px;
+    height: 77px;
+    top: 923px;
+    left: 997px; /**/
+    background-color: #ff964acc;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+
+  .element2 .text-wrapper-2-2 { /*다음 페이지로 문장*/
+    position: absolute;
+    top: 23px;
+    left: 82px; /**/
+    font-family: "Inter-Regular", Helvetica;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .element2 .div-wrapper2 {
+    position: absolute;
+    width: 1055px;
+    height: 86px;
+    top: 292px;
+    left: 682px;
+    border-radius: 20px;
+    border: 3px solid;
+    border-color: #a4a4a4;
+  }
+
+  .element2 .text-wrapper-3-2 {
+    position: absolute;
+    width: 681px;
+    top: 14px;
+    left: 24px;
+    font-family: "Inter-Regular", Helvetica;
+    color: #a4a4a4;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .element2 .frame2 { /*정보를 입력하세요 칸*/
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 29px;
+    position: absolute;
+    top: 137px;
+    left: 1010px; /**/
+  }
+
+  .element2 .text-wrapper-4-2 { /*정보를 입력해주세요*/
+    position: relative;
+    width: 304px;
+    height: 41px;
+    margin-top: -1px;
+    font-family: "Lalezar-Regular", Helvetica;
+    color: #000000;
+    font-size: 32px;
+    text-align: right;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .element2 .p2 {
+    position: absolute;
+    width: 248px;
+    top: 55px;
+    left: 16px; /**/
+    font-family: "Lalezar-Regular", Helvetica;
+    color: #7c7c7c;
+    font-size: 16px;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .element2 .overlap-2-2{
+    position: absolute;
+    width: 890px;
+    height: 17px;
+    top: 257px;
+    left: 732px;
+  }
+
+  .element2 .ex2 {
+    width: 496px;
+    top: 3px;
+    left: 325px;
+    position: absolute;
+    font-family: "Lohit Bengali-Regular", Helvetica;
+    font-weight: 400;
+    color: #7c7c7c;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .element2 .div-2-2 {
+    position: absolute;
+    width: 890px;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    color: transparent;
+    font-size: 24px;
+    white-space: nowrap;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .element2 .span2{
+    color: #000000;
+  }
+
+  .element2 .text-wrapper-5-2 {
+    color: #ff0000;
+  }
+
+  .element2 .overlap-3-2{
+    position: absolute;
+    width: 980px;
+    height: 19px;
+    top: 560px;
+    left: 732px;
+  }
+
+  .element2 .ex-2-2 {
+    width: 497px;
+    top: 8px;
+    left: 420px;
+    position: absolute;
+    font-family: "Lohit Bengali-Regular", Helvetica;
+    font-weight: 400;
+    color: #7c7c7c;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .element2 .div-3-2 {
+    position: absolute;
+    width: 980px;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    color: transparent;
+    font-size: 24px;
+    white-space: nowrap;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .element2 .overlap-4-2 {
+    position: absolute;
+    width: 1008px;
+    height: 16px;
+    top: 712px;
+    left: 732px;
+  }
+
+  .element2 .ex-3-2 {
+    width: 487px;
+    top: 7px;
+    left: 461px;
+    position: absolute;
+    font-family: "Lohit Bengali-Regular", Helvetica;
+    font-weight: 400;
+    color: #7c7c7c;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .element2 .div-4-2 {
+    position: absolute;
+    width: 1008px;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    color: transparent;
+    font-size: 24px;
+    white-space: nowrap;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .element2 .overlap-5-2 {
+    position: absolute;
+    width: 917px;
+    height: 16px;
+    top: 408px;
+    left: 732px;
+  }
+
+  .element2 .ex-4-2 {
+    width: 498px;
+    top: 3px;
+    left: 419px;
+    position: absolute;
+    font-family: "Lohit Bengali-Regular", Helvetica;
+    font-weight: 400;
+    color: #7c7c7c;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .element2 .div-5-2 {
+    position: absolute;
+    width: 860px;
+    top: 0;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    color: transparent;
+    font-size: 24px;
+    white-space: nowrap;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  /*겉부분 지우는 것이 낫나?*/
+  .element2 .overlap-6-2{
+    position: absolute;
+    width: 1055px;
+    height: 86px;
+    top: 440px;
+    left: 682px;
+    border-radius: 20px;
+    border: 3px solid;
+    border-color: #a4a4a4;
+  }
+
+  .element2 .text-wrapper-6-2 {
+    position: absolute;
+    width: 1000px;
+    height: 60px;
+    top: 14px;
+    left: 24px;
+    font-family: "Inter-Regular", Helvetica;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .element2 .overlap-7-2 {
+    position: absolute;
+    width: 1055px;
+    height: 86px;
+    top: 750px;
+    left: 682px;
+    border-radius: 20px;
+    border: 3px solid;
+    border-color: #a4a4a4;
+  }
+
+  .element2 .text-wrapper-7-2{
+    position: absolute;
+    width: 1000px;
+    height: 60px;
+    top: 12px;
+    left: 24px;
+    font-family: "Inter-Regular", Helvetica;
+    color: #111111;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .element2 .overlap-8-2 {
+    position: absolute;
+    width: 1055px;
+    height: 86px;
+    top: 598px;
+    left: 682px;
+    border-radius: 20px;
+    border: 3px solid;
+    border-color: #a4a4a4;
+  }
+
+  .element2 .text-wrapper-8-2 {
+    position: absolute;
+    width: 1000px;
+    height: 60px;
+    top: 12px;
+    left: 24px;
+    font-family: "Inter-Regular", Helvetica;
+    color: #111111;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .element2 .overlap-9-2 {
+    position: absolute;
+    width: 1055px;
+    height: 86px;
+    top: 292px;
+    left: 682px;
+    border-radius: 20px;
+    border: 3px solid;
+    border-color: #a4a4a4;
+  }
+
+  .element2 .overlap-10-2 {
+    position: absolute;
+    width: 294px;
+    height: 56px;
+    top: 934px;
+    left: 103px;
+    background-color: #ff964acc;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+
+  .element2 .text-wrapper-9-2 {
+    position: absolute;
+    top: 12px;
+    left: 108px;
+    font-family: "Inter-Regular", Helvetica;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .element2 .text-wrapper-10-2 { /*CharmText*/
+    position: absolute;
+    top: 140px;
+    left: 175px;
+    font-family: "Inter-Regular", Helvetica;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .element2 .text-wrapper-11-2 {
+    position: absolute;
+    top: 213px;
+    left: 128px;
+    font-family: "Inter-Regular", Helvetica;
+    color: #5c5c5c;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .element2 .div-6-2{
+    position: absolute;
+    width: 375px;
+    top: 332px;
+    left: 62px;
+    font-family: "Inter-Regular", Helvetica;
+    color: transparent;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .element2 .text-wrapper-12-2 {
+    color: #000000;
+    font-size: 24px;
+  }
+
+  .element2 .text-wrapper-13-2 {
+    color: #000000;
+    font-size: 16px;
+  }
+
+  .element2 .text-wrapper-14-2{
+    color: #5c5c5c;
+    font-size: 16px;
+  }
+
+  /* 모든 텍스트 요소에 대한 스타일 */
+.element2,
+.element2 * {
+    font-weight: bold;
+}
+
+.element2 .text-wrapper2,
+.element2 .text-wrapper-2-2,
+.element2 .text-wrapper3,
+.element2 .text-wrapper-3-2,
+.element2 .text-wrapper-4-2,
+.element2 .p2,
+.element2 .ex2,
+.element2 .div-2-2,
+.element2 .text-wrapper5,
+.element2 .text-wrapper-5-2,
+.element2 .ex-2-2,
+.element2 .div-3-2,
+.element2 .ex-3-2,
+.element2 .div-4-2,
+.element2 .ex-4-2,
+.element2 .div-5-2,
+.element2 .text-wrapper-6-2,
+.element2 .text-wrapper-7-2,
+.element2 .text-wrapper-8-2,
+.element2 .text-wrapper-9-2,
+.element2 .text-wrapper-10-2,
+.element2 .text-wrapper-11-2,
+.element2 .div-6-2,
+.element2 .text-wrapper-12-2,
+.element2 .text-wrapper-13-2,
+.element2 .text-wrapper-14-2 {
+    font-weight: bold;
+}

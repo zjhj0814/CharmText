@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale = 0.75">
+    <title>PAGE234</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+        .visible {
+            display: block;
+        }
+        #output{
+            resize:none;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="style2.css" media="screen" id="PAGE2-style">
+    <link rel="stylesheet" type="text/css" href="style3.css" media="screen" id="PAGE3-style">
+    <link rel="stylesheet" type="text/css" href="style4.css" media="screen" id="PAGE4-style">
+
+</head>
+
+<body>
+    <div id="PAGE2" class="visible">
+    <!--PAGE2의 HTML 파일 내용-->
+    <div class="element2">
+        <div class="div2">
+          <button onclick = "showNextPage(PAGE2)" class="overlap2"><div class="text-wrapper-2-2">다음 페이지로</div></button>
+          <div class="div-wrapper2"><div class="text-wrapper-3-2">입력해주세요.</div></div>
+          <div class="frame2">
+            <div class="text-wrapper-4-2">정보를 입력해주세요</div>
+          <p class="p2">메세지 출력에 필수적인 정보들입니다</p>
+          </div>
+          <div class="overlap-2-2">
+            <p class="div-2-2">
+              <span class="span2">푸시의 목적을 입력해주세요.</span> <span class="text-wrapper-5-2">*</span> <!--input1-->
+            </p>
+          </div>
+          <div class="overlap-3-2">
+            <p class="div-3-2">
+              <span class="span2">푸시의 내용을 입력해주세요.</span> <span class="text-wrapper-5-2">*</span> <!--intput3-->
+            </p>
+          </div>
+          <div class="overlap-4-2">
+            <p class="div-4-2">
+              <span class="span2">푸시의 발신처를 입력해주세요.</span> <span class="text-wrapper-5-2">*</span><!--input4-->
+            </p>
+          </div>
+          <div class="overlap-5-2">
+            <p class="div-5-2">
+              <span class="span2">푸시의 핵심 내용을 한 문장으로 입력해주세요.</span> <span class="text-wrapper-5-2">*</span><!--intpu2-->
+            </p>
+          </div>
+          <div class="overlap-6-2">
+            <label for="input2"></label>
+            <input type="text" id="input2" class="text-wrapper-6-2" placeholder="  ex.XX를 홍보하려고 해. 또는 OO에 대해 공지하려고 해." /> <!--푸시의 핵심 내용-->
+          </div>
+          <div class="overlap-7-2">
+            <label for="input4"></label>
+            <input type="text" id="input4" class="text-wrapper-7-2" placeholder="  ex.인하대 IT서비스팀" /> <!--푸시의 발신처-->
+          </div>
+          <div class="overlap-8-2">
+            <label for="input3"></label>
+            <input type="text" id="input3" class="text-wrapper-8-2" placeholder="  ex. 일정, 링크, 이벤트 내용 등" /> <!--푸시의 내용-->
+          </div>
+          <div class="overlap-9-2">
+            <label for="input1"></label>
+            <select name="purpose" id="input1" class="text-wrapper-6-2">
+              <option value="none">--선택--</option>
+              <option value="notice">공지</option>
+              <option value="promotion">홍보</option>
+            </select>
+            <!--
+            <input type="text" id="input1" class="text-wrapper-6-2" placeholder="  공지/홍보" /> 푸시의 목적(공지/홍보)
+            -->
+          </div>
+
+          <div class="overlap-group-2-2"></div>
+            <div class="text-wrapper-10-2">CharmText</div>
+            <p class="text-wrapper-11-2">“내가 글 대신 써줄 수 있는 거 알지?”<br />“당연하지🎧”</p>
+            <p class="div-6-2">
+              <span class="span2">📚 메세지 작성에 고민하지 마세요!<br /></span>
+              <span class="text-wrapper-12-2"><br /></span>
+              <span class="text-wrapper-14-2"
+                >우리 모두 이제 더 이상 메세지 작성에 <br />시간을 허비하지 않도록 해요<br
+              /></span>
+              <span class="text-wrapper-12-2"><br /></span>
+              <span class="span2">⏰ 시간을 절약하고 생활을 더 편하게!<br /></span>
+              <span class="text-wrapper-12-2"><br /></span>
+              <span class="text-wrapper-14-2"
+                >메세지 작성은 우리에게 맡기고 <br />더 중요한 일에 집중하여 능률을 높여요<br
+              /></span>
+              <span class="text-wrapper-12-2"><br /></span>
+              <span class="span2">💬 어디에서나, 언제든 편리하게!<br /></span>
+              <span class="text-wrapper-12-2"><br /></span>
+              <span class="text-wrapper-14-2"
+                >휴대폰, 태블릿, 노트북에서 언제든 접속하고, <br />간편하게 사용해요<br
+              /></span>
+              <span class="text-wrapper-12-2"><br /></span>
+              <span class="span2"
+                >이제 이 툴과 함께 효율적으로 소통하세요. 시작해보면 그 차이를 직접 느낄 거에요! 🌈<br
+              /></span>
+              <span class="text-wrapper-12-2"><br /></span>
+            </p>
+            <button onclick="navigateToPage5()" class="overlap-10-2"><div class ="text-wrapper-9-2">도움말</div></button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--PAGE3의 HTML 파일 내용-->
+    <div id="PAGE3" class="hidden">
+        <div class="element3">
+            <div class="div3">
+              <button onclick="showNextPage(PAGE3)" id="getOutput" class="overlap-group3"><div class="text-wrapper-2-3">다음 페이지로</div></button>
+              <div class="div-wrapper3">
+                <label for = "input5"></label>
+                <select name="accent" id="input5" class="text-wrapper-3-3">
+                  <option value="none">--선택--</option>
+                  <option value="kindly">친절하게</option>
+                  <option value="heavy">무겁게</option>
+                  <option value="briefly">간결하게</option>
+                </select>
+                <!--
+                <input type ="text" id ="input5" class ="text-wrapper-3-3"
+                placeholder="  친절하게/무겁게/간결하게" />
+                -->
+              </div>
+              <div class="overlap-2-3">
+                <label for = "input6"></label>
+                <input type ="text" id ="input6" class ="text-wrapper-4-3"
+                placeholder="  이모지를 추가해 줘." />
+              </div>
+              <div class="frame3">
+                <div class="text-wrapper-5-3">정보를 입력해주세요</div>
+                <p class="p3">다음 사항은 선택 입력해주세요&nbsp;&nbsp;더욱 최적의 값을 얻을 수 있습니다</p>
+              </div>
+              <div class="text-wrapper-6-3">푸시의 말투를 입력해주세요.</div>
+              <div class="text-wrapper-7-3">추가 요청 사항을 입력해주세요.</div>
+              
+              <div class="overlap-group-2-3">
+                <button onclick="navigateToPage5()" class="overlap-3-3"><div class="text-wrapper-8-3">도움말</div></button>
+                <div class="text-wrapper-9-3">CharmText</div>
+                <p class="text-wrapper-10-3">“내가 글 대신 써줄 수 있는 거 알지?”<br />“당연하지🎧”</p>
+                <p class="div-2-3">
+                  <span class="span3">📚 메세지 작성에 고민하지 마세요!<br /></span>
+                  <span class="text-wrapper-11-3"><br /></span>
+      
+                  <span class="text-wrapper-13-3"
+                    >우리 모두 이제 더 이상 메세지 작성에 <br />시간을 허비하지 않도록 해요<br
+                  /></span>
+                  <span class="text-wrapper-11-3"><br /></span>
+                  <span class="span3">⏰ 시간을 절약하고 생활을 더 편하게!<br /></span>
+                  <span class="text-wrapper-11-3"><br /></span>
+                  <span class="text-wrapper-13-3"
+                    >메세지 작성은 우리에게 맡기고 <br />더 중요한 일에 집중하여 능률을 높여요<br
+                  /></span>
+                  <span class="text-wrapper-11-3"><br /></span>
+                  <span class="span3">💬 어디에서나, 언제든 편리하게!<br /></span>
+                  <span class="text-wrapper-11-3"><br /></span>
+                  <span class="text-wrapper-13-3"
+                    >휴대폰, 태블릿, 노트북에서 언제든 접속하고, <br />간편하게 사용해요<br
+                  /></span>
+                  <span class="text-wrapper-11-3"><br /></span>
+                  <span class="span3"
+                    >이제 이 툴과 함께 효율적으로 소통하세요. 시작해보면 그 차이를 직접 느낄 거에요! 🌈<br
+                  /></span>
+                  <span class="text-wrapper-11-3"><br /></span>
+                </p>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <!--PAGE4의 HTML 파일 내용-->
+    <div id="PAGE4" class="hidden">
+        <div class="element4">
+            <div class="div4">
+              <button onclick="navigateToPage1()" class="overlap4"><div class="text-wrapper4">홈으로</div></button>
+              <div class="overlap-group4"><!--전체를 감싸고 있는 회색 사각형-->
+                <label for ="output"></label>
+                <!--readonly로 수정!-->
+                <textarea id ="output" class ="text-wrapper-9-4" placeholder="잠시만 기다려주세요..." readonly="readonly"></textarea>
+                <button onclick="copy()" class="rectangle4"> COPY </button>
+            </div>
+              <div class="text-wrapper-2-4">출력 결과</div>
+              <div class="overlap-2-4">
+                <button onclick="navigateToPage5()" class="div-wrapper4"><div class="text-wrapper-3-4">도움말</div></button>
+              </div>
+                <div class="text-wrapper-4-4">CharmText</div>
+                <p class="p4">“내가 글 대신 써줄 수 있는 거 알지?”<br />“당연하지🎧”</p>
+                <p class="div-2-4">
+                  <span class="span4">📚 메세지 작성에 고민하지 마세요!<br /></span>
+                  <span class="text-wrapper-5-4"><br /></span>
+                  <span class="text-wrapper-7-4"
+                    >우리 모두 이제 더 이상 메세지 작성에 <br />시간을 허비하지 않도록 해요<br
+                  /></span>
+                  <span class="text-wrapper-5-4"><br /></span>
+                  <span class="span4">⏰ 시간을 절약하고 생활을 더 편하게!<br /></span>
+                  <span class="text-wrapper-5-4"><br /></span>
+                  <span class="text-wrapper-7-4"
+                    >메세지 작성은 우리에게 맡기고 <br />더 중요한 일에 집중하여 능률을 높여요<br
+                  /></span>
+                  <span class="text-wrapper-5-4"><br /></span>
+                  <span class="span4">💬 어디에서나, 언제든 편리하게!<br /></span>
+                  <span class="text-wrapper-5-4"><br /></span>
+                  <span class="text-wrapper-7-4"
+                    >휴대폰, 태블릿, 노트북에서 언제든 접속하고, <br />간편하게 사용해요<br
+                  /></span>
+                  <span class="text-wrapper-5-4"><br /></span>
+                  <span class="span4"
+                    >이제 이 툴과 함께 효율적으로 소통하세요. 시작해보면 그 차이를 직접 느낄 거에요! 🌈<br
+                  /></span>
+                  <span class="text-wrapper-5-4"><br /></span>
+                </p>
+              </div>
+            </div>
+          </div>
+    </div>
+    <script src="chatbot.js"></script>
+</body>
+
+</html>
