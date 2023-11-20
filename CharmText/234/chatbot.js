@@ -108,7 +108,7 @@ async function fetchAIResponse(message){
         method: 'POST',
         headers:{
             'Content-Type':'application/json',
-            'Authorization':'Bearer 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'
+            'Authorization':'Bearer git apiKey'
         },
         body: JSON.stringify({
             model: "gpt-3.5-turbo",
